@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.MyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! -- in com.cognizant.MyServiceTest
+com.cognizant.MyServiceTest.testExternalApi -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "com.example" does not match the expected package "com.cognizant"
+
+	at com.cognizant.MyServiceTest.<init>(MyServiceTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:368)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
