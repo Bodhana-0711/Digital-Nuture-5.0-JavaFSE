@@ -1,4 +1,0 @@
-orm_learn\model\Country.class
-orm_learn\repository\CountryRepository.class
-orm_learn\service\CountryService.class
-orm_learn\OrmLearnApplication.class
